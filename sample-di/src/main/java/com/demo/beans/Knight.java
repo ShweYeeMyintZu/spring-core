@@ -28,6 +28,7 @@ public class Knight {
     }
     @Autowired
     public void setSpringBean(List<MyInterface> list){
-
+        System.out.println("Autowired");
+        System.out.println(list);
     }
 }
